@@ -1,0 +1,25 @@
+<template name="enviar">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <h1 class="dying3">
+            Enviar Información de Mi apartamento Ü
+        </h1>
+        <h3 class="dying"><strong><span id="nombreClienteInfo">{{name}}</span></strong>, ingrese su información para finalizar:</h3>
+        <form class="form-horizontal" action="#" id="interesForm" name="interesForm">
+            <div class="form-group">
+                    <input name="apellidosFormInfo" id="apellidosFormInfo" class="main-input form-control boreeeed" placeholder="Apellido" type="text" required>
+            </div>
+            <div class="form-group">
+                    <input name="emailFormInfo" id="emailFormInfo" class="main-input form-control boreeeed" placeholder="Email" type="text" required>
+            </div>
+            <div class="form-group">
+                    <input name="telefonoFormInfo" id="telefonoFormInfo" class="main-input form-control boreeeed" placeholder="Teléfono" type="text" required>
+            </div>
+        <button type="submit" class="next-absolute reservar-button">
+            <img src="img/continuar.png" class="img-responsive"/>
+        </button>
+    </form>
+    </div>
+    <div class="col-md-2"></div>
+    {{> nav}}
+</template>

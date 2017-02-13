@@ -1,0 +1,37 @@
+<template name="level">
+    <div class="levelContainer">
+        <select id="level" class="hidden">
+            {{#each floor in floors}}
+                <option value="{{floor}}">{{floor}}</option>
+            {{/each}}
+        </select>
+
+
+        <div class="col-md-4">
+            <div class="level-title">
+                <p class="first">SELECCIONE</p>
+                <p class="second">NIVEL</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-md-offset-1 container-slider-xd">
+            <div id="slider-vertical" class="level-slider"></div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="level-selected">
+                <p>NIVEL</p>
+                <p>{{level}}</p>
+            </div>
+            <div class="level-precio">
+                {{#if continuar}}${{/if}}{{precio}}
+            </div>
+        </div>
+        {{#if continuar}}
+        <a href="colocar" class="next-absolute">
+            <img src="/img/continuar.png" class="img-responsive animated flash infinite">
+        </a>
+        {{/if}}
+    </div>
+    {{> nav}}
+</template>

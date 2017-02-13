@@ -1,0 +1,281 @@
+{
+  "Piso": 2,
+  "Estado": "Disponible",
+  "Distribucion": {
+    "Norte": [{
+      "id": 1,
+      "posicion": 1,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 2,
+      "posicion": 2,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 3,
+      "posicion": 3,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 4,
+      "posicion": 4,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 5,
+      "posicion": 5,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 6,
+      "posicion": 6,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 7,
+      "posicion": 7,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 8,
+      "posicion": 8,
+      "estado": "bloqueado",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 9,
+      "posicion": 9,
+      "estado": "bloqueado",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 10,
+      "posicion": 10,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 11,
+      "posicion": 11,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 12,
+      "posicion": 12,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 13,
+      "posicion": 13,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 14,
+      "posicion": 14,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 15,
+      "posicion": 15,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }],
+
+
+
+    "Sur": [{
+      "id": 16,
+      "posicion": 16,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 17,
+      "posicion": 17,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 18,
+      "posicion": 18,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 19,
+      "posicion": 19,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 20,
+      "posicion": 20,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 21,
+      "posicion": 21,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 22,
+      "posicion": 22,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 23,
+      "posicion": 23,
+      "estado": "bloqueado",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 24,
+      "posicion": 24,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 25,
+      "posicion": 25,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 26,
+      "posicion": 26,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 27,
+      "posicion": 27,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 28,
+      "posicion": 28,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 29,
+      "posicion": 29,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 30,
+      "posicion": 30,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "Piso": 20,
+  "Estado": "Disponible",
+  "Distribucion": {
+    "Norte": [{
+      "id": 551,
+      "posicion": 1,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 552,
+      "posicion": 2,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "N"
+      }
+    }, {
+      "id": 553,
+      "posicion": 3,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "N"
+      }
+    }, {
+      "id": 554,
+      "posicion": 4,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N",
+        "C": "S"
+      }
+    }, {
+      "id": 555,
+      "posicion": 5,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N",
+        "C": "S"
+      }
+    }, {
+      "id": 556,
+      "posicion": 6,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N",  
+        "C": "S"
+      }
+    }, {
+      "id": 557,
+      "posicion": 7,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "S"
+      }
+    }, {
+      "id": 558,
+      "posicion": 8,
+      "estado": "bloqueado",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 559,
+      "posicion": 9,
+      "estado": "bloqueado",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 560,
+      "posicion": 10,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 561,
+      "posicion": 11,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 562,
+      "posicion": 12,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 563,
+      "posicion": 13,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 564,
+      "posicion": 14,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }, {
+      "id": 565,
+      "posicion": 15,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "S",
+        "C": "S"
+      }
+    }],
+
+
+
+    "Sur": [{
+      "id": 566,
+      "posicion": 16,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 567,
+      "posicion": 17,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 568,
+      "posicion": 18,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 569,
+      "posicion": 19,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }, {
+      "id": 570,
+      "posicion": 20,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 571,
+      "posicion": 21,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 572,
+      "posicion": 22,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 573,
+      "posicion": 23,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "S"
+      }
+    }, {
+      "id": 574,
+      "posicion": 24,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "S"
+      }
+    }, {
+      "id": 575,
+      "posicion": 25,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "S"
+      }
+    }, {
+      "id": 576,
+      "posicion": 26,
+      "estado": "libre",
+      "permitido": {
+        "A": "S",
+        "B": "N", 
+        "C": "S"
+      }
+    }, {
+      "id": 577,
+      "posicion": 27,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 578,
+      "posicion": 28,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 579,
+      "posicion": 29,
+      "estado": "libre",
+      "permitido": {
+        "A": "N",
+        "B": "S",
+        "C": "N"
+      }
+    }, {
+      "id": 580,
+      "posicion": 30,
+      "estado": "vacio",
+      "permitido": {
+        "A": "N",
+        "B": "N",
+        "C": "N"
+      }
+    }]
+  }
+}

@@ -1,0 +1,83 @@
+.colocar-title{
+  color: #fff!important;
+  font-size: xx-large!important;
+  text-align: center;
+}
+.slide7{
+  background-image:url('img/slide7.jpg');
+  background-repeat: repeat-y;
+  background-size:100%;
+  min-height: 90vh;
+}
+.slide7 .tile{
+  height: 150px;
+  width: 57px;
+}
+
+#piso{
+  width:100%;
+  height:100%;
+}
+
+.norte, .sur{
+  padding-top:2%;
+}
+.colocar-vistas{
+  z-index:100;
+}
+
+.asv{
+  text-align:left;
+  font-size:1.3em;
+  font-family: NexaHeavy;
+  margin:0;
+  margin-bottom:25px;
+  color:#6C3790;
+}
+
+
+
+.colocar-dinamic{
+    line-height:3;
+    font-size:1.5em;
+    color:#000000;
+    font-family: NexaHeavy;
+    text-align:left;
+    margin-left:10%;
+  .colocar-nivel{
+    font-size:3em;
+    line-height:1;
+    color:#6C3790;
+    font-family: NexaHeavy;
+    margin-left:0;
+    margin-top:10%;
+  }
+  .draggable-img{
+    width:100%;
+  }
+
+  button.reset{
+    font-size:1em;
+    font-family:NexaHeavy;
+    display:block;
+    cursor:pointer;
+    border-radius:1.5em;
+    background-color:#ffffff;
+    line-height:3.6;
+    margin-bottom:3%;
+    width:100%;
+    border:none;
+    color:#7F3B8C;
+  }
+  button.reset:hover{
+    background-color: #00BBC4;
+    color:#ffffff;
+  }
+}
+
+
+.tile-aparta{
+  background: none;
+  border: none;
+  width: 160px!important;
+}

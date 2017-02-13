@@ -1,0 +1,22 @@
+<template name="tierpreview">
+    <a href="level" class="col-xs-3 next-absolute">
+        <img src="img/continuar.png" class="img-responsive pull-right animated flash infinite no-float "/>
+    </a>
+    <div class="container" style="width: 100vw;">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="big-header">{{nombre}}</div>
+            </div>
+        </div>
+        <div class="flex-row" style="width: 100%; justify-content: center;">
+            <div class="col-md-2"></div>
+
+            <div class="center-block flex-row" style="justify-content: center; align-items: center;">
+                <img src="{{url}}" class="img-responsive tier-preview ">
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    {{> nav}}
+</template>

@@ -1,0 +1,303 @@
+[
+
+{	"Piso": 2,
+	"Tipo": "A",
+	"Precio": 300
+}, {
+	"Piso": 2,
+	"Tipo": "B",
+	"Precio": 300
+}, {
+	"Piso": 2,
+	"Tipo": "C",
+	"Precio": 300
+}, {                         
+	"Piso": 3,
+	"Tipo": "A",
+	"Precio": 100
+}, {
+	"Piso": 3,
+	"Tipo": "B",
+	"Precio": 100
+}, {
+	"Piso": 3,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 4,
+	"Tipo": "A",
+	"Precio": 100
+}, {
+	"Piso": 4,
+	"Tipo": "B",
+	"Precio": 100
+}, {
+	"Piso": 4,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 5,
+	"Tipo": "A",
+	"Precio": 100
+}, {
+	"Piso": 5,
+	"Tipo": "B",
+	"Precio": 100
+}, {
+	"Piso": 5,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 6,
+	"Tipo": "A",
+	"Precio": 100
+}, {
+	"Piso": 6,
+	"Tipo": "B",
+	"Precio": 100
+}, {
+	"Piso": 6,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 7,
+	"Tipo": "A",
+	"Precio": 100
+}, {
+	"Piso": 7,
+	"Tipo": "B",
+	"Precio": 100
+}, {
+	"Piso": 7,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 8,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 8,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 8,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 9,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 9,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 9,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 10,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 10,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 10,
+	"Tipo": "C",
+	"Precio": 100
+}, {						
+	"Piso": 11,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 11,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 11,
+	"Tipo": "C",
+	"Precio": 100	
+}, {						
+	"Piso": 12,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 12,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 12,
+	"Tipo": "C",
+	"Precio": 100		
+}, {						
+	"Piso": 13,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 13,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 13,
+	"Tipo": "C",
+	"Precio": 100		
+}, {						
+	"Piso": 14,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 14,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 14,
+	"Tipo": "C",
+	"Precio": 100		
+}, {						
+	"Piso": 15,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 15,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 15,
+	"Tipo": "C",
+	"Precio": 100		
+	}, {					
+	"Piso": 16,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 16,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 16,
+	"Tipo": "C",
+	"Precio": 100		
+}, {					     
+	"Piso": 17,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 17,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 17,
+	"Tipo": "C",
+	"Precio": 100		
+}, {					     
+	"Piso": 18,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 18,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 18,
+	"Tipo": "C",
+	"Precio": 100	
+}, {					     
+	"Piso": 19,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 19,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 19,
+	"Tipo": "C",
+	"Precio": 100	
+}, {					     
+	"Piso": 20,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 20,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 20,
+	"Tipo": "C",
+	"Precio": 100	
+}, {					     
+	"Piso": 21,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 21,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 21,
+	"Tipo": "C",
+	"Precio": 100	
+}, {					     
+	"Piso": 22,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 22,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 22,
+	"Tipo": "C",
+	"Precio": 100	
+}, {					     
+	"Piso": 23,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 23,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 23,
+	"Tipo": "C",
+	"Precio": 100
+}, {					     
+	"Piso": 24,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 24,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 24,
+	"Tipo": "C",
+	"Precio": 100
+}, {					     
+	"Piso": 25,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 25,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 25,
+	"Tipo": "C",
+	"Precio": 100
+}, {					     
+	"Piso": 26,
+	"Tipo": "A",
+	"Precio": 100
+}, {						
+	"Piso": 26,
+	"Tipo": "B",
+	"Precio": 100
+}, {						
+	"Piso": 26,
+	"Tipo": "C",
+	"Precio": 100
+}
+]

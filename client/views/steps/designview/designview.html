@@ -1,0 +1,69 @@
+<template name="designview">
+    <div class="container">
+        <div class="design-view">
+            <div class="row design-view-line-height">
+                <div class="big-header design-view-line-height reduced-vh"> {{titulo}}</div>
+                <div class="small-header">Toque Una Imagen Para Abrir Slideshow</div>
+            </div>
+
+            <div class="row design-view-collage">
+                <div class="flex-row" style="margin-bottom: 10px; justify-content: center;">
+                    {{#each url in urls1}}
+                            <div style="margin:0 10px">
+                                <img class="carousel border-design-view img-design-view" src="{{url}}">
+                            </div>
+                    {{/each}}
+                </div>
+                <div class="flex-row" style="justify-content: center;">
+                    {{#each url in urls2}}
+                            <div style="margin: 0 10px;">
+                                <img class="carousel border-design-view img-design-view" src="{{url}}">
+                            </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <a href="amenidades" class="next-absolute">
+            <img src="img/continuar.png" class="img-responsive animated flash infinite"/>
+        </a>
+
+        <div class="carousel-hide carousel-design-view">
+            <div class="row">
+                <div class="big-header design-view-line-height reduced-vh"> {{titulo}}</div>
+                <div class="small-header">Click afuera para cerrar</div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div id="designCarousel" class="carousel slide" data-ride="carousel" style="height: calc(80vh - 35px); margin-top: 35px;">
+                    <div class="carousel-inner" role="listbox">
+                        {{#each url in urls}}
+                            <div class="item {{#if first urls url}}active{{/if}}" style="justify-content: center">
+                                <img src="{{url}}" style="margin: 0 auto;" />
+                            </div>
+                        {{/each}}
+                    </div>
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#designCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#designCarousel" data-slide-to="1"></li>
+                        <li data-target="#designCarousel" data-slide-to="2"></li>
+                        <li data-target="#designCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                </div>
+                <a class="left carousel-control carousel-hide" href="#designCarousel" role="button" data-slide="prev" style="position: fixed; right: 0; top:0">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control carousel-hide" href="#designCarousel" role="button" data-slide="next" style="position: fixed; right: 0; top:0">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    {{> nav}}
+    {{> hand}}
+</template>

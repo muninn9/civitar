@@ -1,0 +1,67 @@
+<template name="colocar">
+    <div class="row title center"><h1 class="colocar-title"> ¿Dónde desea colocar su apartamento? </h1></div>
+    <div class="slide7">
+        <div class="row colocar-dinamic">
+            <div class="col-md-7">
+                <div class="row"><p class="asv">COLOQUE EL APARTAMENTO TIPO: {{tier}}</p></div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <button class="reset btn-resumen">Reubicar</button>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="tile nope tile-aparta" id="piso" draggable="true"><img src="{{url}}"
+                                                                                           class="img-responsive draggable-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="colocar-nivel"> NIVEL {{level}}</div>
+            </div>
+        </div>
+        <div class="flex-row" style="width: 100%; justify-content: center;">
+            <div class="flex-column" style="width: calc(1161px - 184px);">
+                <div class="norte row">
+                    <div class="tiles col-md-12">
+                        <div class="tile" id="1"></div>
+                        <div class="tile" id="2" style="margin-right:-2px"></div>
+                        <div class="tile tileborder" id="3" style="margin-left:-2px"></div>
+                        <div class="tile" id="4" style="margin-right:-2px"></div>
+                        <div class="tile" id="5" style="margin-left:-2px"></div>
+                        <div class="tile tileborder" id="6" style="margin-right:-2px"></div>
+                        <div class="tile" id="7" style="margin-left:-2px"></div>
+                        <div class="tile" id="8" style="margin-right:-2px"></div>
+                        <div class="tile tileborder" id="9" style="margin-left:-2px"></div>
+                        <div class="tile" id="10" style="margin-right:-2px"></div>
+                        <div class="tile" id="11" style="margin-left:-2px"></div>
+                        <div class="tile tileborder" id="12" style="margin-right:-2px"></div>
+                        <div class="tile" id="13" style="margin-left:-2px"></div>
+                        <div class="tile" id="14" style="margin-right:-2px"></div>
+                        <div class="tile tileborder" id="15" style="margin-left:-2px"></div>
+                    </div>
+                </div>
+                <div class="sur row">
+                    <div class="col-md-12">
+                        <div class="tile" id="16"></div>
+                        <div class="tile" id="17" style="margin-right:-2px"></div>
+                        <div class="tile tileborder" id="18" style="margin-left:-2px"></div>
+                        <div class="tile" id="19" style="margin-right:-2px"></div>
+                        <div class="tile" id="20" style="margin-left:-2px"></div>
+                        <div class="tile tileborder" id="21" style="margin-right:-2px"></div>
+                        <div class="tile" id="22" style="margin-left:-2px"></div>
+                        <div class="tile" id="23" style="margin-right:-2px"></div>
+                        <div class="tile tileborder" id="24" style="margin-left:-2px"></div>
+                        <div class="tile" id="25" style="margin-right:-2px"></div>
+                        <div class="tile" id="26" style="margin-left:-2px"></div>
+                        <div class="tile tileborder" id="27" style="margin-right:-2px"></div>
+                        <div class="tile" id="28" style="margin-left:-2px"></div>
+                        <div class="tile" id="29"></div>
+                        <div class="tile tileborder" id="30"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-column"><img src="img/tutorialv2.png" class="pull-right img-responsive colocar-vistas"></div>
+        </div>
+    </div>{{#if complete}}<a href="resumen" class="next-absolute"> <img src="img/continuar.png"
+                                                                        class="img-responsive animated flash infinite"/>
+</a>{{/if}}{{> nav}}</template>
